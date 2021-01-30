@@ -1,2 +1,2 @@
-# CGPA-Calc
-6th Semester SGP Project 
+# SGPA-Calc
+6th Semester SGP Project
