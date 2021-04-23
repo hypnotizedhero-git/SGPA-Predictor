@@ -1,0 +1,25 @@
+*
+{
+    color:green;
+    font-size: 33px;
+    font-weight: 500;
+}
+body
+{
+    background-image: url('/static/BG2.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+    padding-top: 233px;
+    padding-left: 500px;
+}
+table
+{
+    padding: 10px;
+    vertical-align: middle;
+    align-items: center;
+}
+#hello
+{
+    margin-left: 140px;
+}

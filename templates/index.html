@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./static/style.css">
+    <title>SGPA Predictor</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/submit" method="POST">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                <div class="text">SGPA Predictor</div>
+                <div class="form-group-sm">
+                    Enter ID:
+                    <input type="text" name="id_no" id="id_no" required placeholder="e.g. 18DCS001">
+                    <div>
+                        <input type="submit" class="btn btn-primary" title="Submit">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
